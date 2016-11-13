@@ -1,0 +1,133 @@
+body.web{
+	background-color: #234b87;
+}
+div.banana{
+	margin-top: 15px;
+	height:110px;
+	min-width:700px;
+	width:100%;
+	background-color: rgba(120,205,222,1);
+}
+div.banana_out{
+	margin-top: 15px;
+	height:110px;
+	min-width:700px;
+	width:100%;
+	border-radius:10px;
+	border-top-left-radius:35px;
+
+	background-color:#234b87;
+	-webkit-transition-property: background-color;
+	-webkit-transition-duration: 0.5s;
+}
+div.banana_in{
+	margin-top: 15px;
+	height:110px;
+	min-width:700px;
+	width:100%;
+	border-radius:10px;
+	border-top-left-radius:35px;
+
+	background-color: rgba(120,170,250,0.4);
+	-webkit-transition-property: background-color;
+	-webkit-transition-duration:0.5s;
+
+}
+p.title{
+   position: absolute;
+   margin-top:20px;
+   margin-left: 10px;
+   min-width:700;
+   font-size:50px;
+   font-family:"Microsoft yahei";
+   color:white;
+   cursor:default;
+
+   text-shadow:0em 0em 0.3em rgba(235,235,235,0);
+
+
+	-webkit-transition-property: text-shadow;
+	-webkit-transition-duration:0.5s;
+
+}
+p.titleIn{
+   position: absolute;
+   margin-top:20px;
+   margin-left: 10px;
+   min-width:700;
+   font-size:50px;
+   font-family:"Microsoft yahei";
+   color:white;
+   cursor:default;	
+
+   text-shadow:0em 0em 0.3em rgba(235,235,235,1);
+
+   -webkit-transition-property: text-shadow;
+	-webkit-transition-duration:0.5s;
+}
+#container{
+  display: -webkit-box;
+  position: absolute;
+  top: 140px;
+
+}
+#left-sidebar{
+  width:200px;
+  padding-top: 10px;
+  background-color: rgba(190,205,205,1);
+  border-radius: 10px;
+
+  font-size:18px;
+  font-family: "Microsoft yahei";
+  text-align:center;
+  
+}
+#block{
+width:25px;
+background-color:#234b87;
+}
+
+#contents{
+-webkit-box-flex:1;
+padding: 20px;
+margin-right:10px;
+background-color:rgba(235, 235 ,235,1);
+font-family:"Microsoft yahei";
+font-size:16px;
+border-radius: 10px;
+
+}
+
+#left-sidebar,#block, #contents{
+-webkit-box-sizing: border-box;
+}
+
+
+.button{
+  width:200px;
+  height:30px;
+  text-align:center;
+  margin-top: 15px;
+  background-color:#becdcd;
+  border-radius:10px;
+
+  cursor: default;
+
+  -webkit-transition-property:background-color;
+  -webkit-transition-duration:0.3s;
+
+}
+.buttonIn{
+  width:200px;
+  height:30px;
+  text-align:center;
+  margin-top: 15px;
+  background-color:#fff;
+  border-radius:10px;
+
+  cursor: default;
+
+  -webkit-transition-property:background-color;
+  -webkit-transition-duration:0.3s;
+}
+
